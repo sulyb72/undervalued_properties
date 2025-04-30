@@ -1,55 +1,53 @@
-Property Undervaluation Analysis
-Objective
-This project aims to identify areas with potentially undervalued properties or rental yield opportunities by analyzing the relationship between household income and property valuations. By comparing income levels to capital and rental values across regions, the analysis uncovers places where local property markets may not fully reflect residents' purchasing power—offering insight for investors, planners, or housing analysts.
+# Property Undervaluation Analysis
 
-Key Steps and Analysis
-1. Dataset Overview
-The analysis incorporates rich property-level and regional data, including:
+## Objective
 
-Geographic identifiers (e.g., LSOA codes)
+This project aims to identify areas with potentially undervalued properties or rental yield opportunities by analyzing the relationship between household income and property valuations. By comparing income levels to capital and rental values across regions, the analysis uncovers locations where local property markets may not fully reflect residents' purchasing power. These insights can support property investment strategies, housing development planning, and broader market evaluation.
 
-Structural attributes (e.g., floor area, property type)
+> **Note**: The data used in this project has not been uploaded to this repository, as it contains private data owned by Yeme Tech Limited.
 
-Ownership and EPC (energy performance certificate) data
+## Key Steps and Analysis
 
-Market valuations (capital and rental)
+### 1. Dataset Overview
 
-Local demographics and household income figures
+The analysis is based on a combination of property-level and regional datasets, including:
 
-2. Data Processing
-We compute key valuation metrics and derived indicators:
+- Geographic identifiers (e.g., LSOA codes)
+- Structural attributes (e.g., floor area, property type)
+- Ownership and EPC (Energy Performance Certificate) data
+- Market valuations (capital and rental)
+- Local demographics and household income figures
 
-Capital Valuation per m²
+### 2. Data Processing
 
-Rental Valuation per m²
+Key metrics and derived indicators are computed to support spatial and economic comparisons, including:
 
-Household Income to Valuation Ratios
+- **Capital valuation per square meter**
+- **Rental valuation per square meter**
+- **Household income to property valuation ratios**
 
-These features enable relative comparison across locations.
+These metrics enable consistent evaluation across different regions and property types.
 
-3. Statistical Analysis
-The notebook performs:
+### 3. Statistical Analysis
 
-Correlation analysis between income and property valuations
+The notebook conducts multiple forms of analysis to detect patterns and outliers:
 
-Ratio-based evaluation to highlight mismatches between income and market prices
+- Correlation analysis between income and property values
+- Ratio-based assessments to highlight discrepancies between income and valuation
+- Identification of statistical outliers and income-valuation gaps
 
-Exploratory methods to detect statistical outliers and value-income gaps
+### 4. Mapping Potential Opportunities
 
-4. Mapping Potential Opportunities
-Using spatial visualization, the analysis highlights areas where:
+Spatial visualizations are used to identify areas where:
 
-Household income exceeds expectations given property prices
+- Household income substantially exceeds property valuation levels
+- Rental values appear low relative to local income levels
+- Undervalued zones can be detected and geographically interpreted
 
-Rental values are low relative to income, suggesting rental yield potential
+## Outcome
 
-Undervalued zones are visualized geographically using intuitive mapping tools
+The analysis delivers a data-driven shortlist of areas with:
 
-Outcome
-The result is a data-driven shortlist of regions that may offer:
-
-Favorable conditions for property investment
-
-Rental market arbitrage opportunities
-
-Insights into structural market undervaluation
+- Potential for property investment based on income-to-valuation imbalances
+- Opportunities for optimizing rental yields
+- Evidence of structural undervaluation in regional property markets
