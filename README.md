@@ -1,5 +1,7 @@
 # Property Undervaluation Analysis
 
+Miro Board: https://miro.com/app/board/uXjVI7GNjxo=/?share_link_id=575070762756
+
 ## Objective
 
 This project aims to identify areas with potentially undervalued properties or rental yield opportunities by analyzing the relationship between household income and property valuations. By comparing income levels to capital and rental values across regions, the analysis uncovers locations where local property markets may not fully reflect residents' purchasing power. These insights can support property investment strategies, housing development planning, and broader market evaluation.
